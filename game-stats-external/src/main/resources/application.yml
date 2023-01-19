@@ -1,0 +1,9 @@
+#spring:
+#  codec:
+#    max-in-memory-size: 500MB
+    
+#spring:
+#  jackson:
+#    serialization:
+#      INDENT_OUTPUT: true
+#    

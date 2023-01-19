@@ -1,0 +1,30 @@
+# Application-side properties (not affected by cloud)
+#resilience4j:
+#  circuitbreaker:
+#    instances:
+#      game-stats:
+#        sliding-window-size: 3
+#        sliding-window-type: COUNT_BASED
+#        failure-rate-threshold: 50 # moves to open state if >= 50% of calls fail
+#        ring-buffer-size-in-closed-state: 5 # minimum number of calls we wait for in closed-state
+#        ring-buffer-size-in-half-open-state: 3 # minimum number of calls to be made in open state
+#        wait-duration-in-open-state: 20s # the time the circuit-break should wait before moving from open to half-open
+#        automatic-transition-from-open-to-half-open-enabled: true # if true, automatically open to half open state
+#        
+
+# Prometheus / Micro Core (Required for each MS)
+management:
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+  metrics:
+    export:
+      prometheus:
+        enabled: true

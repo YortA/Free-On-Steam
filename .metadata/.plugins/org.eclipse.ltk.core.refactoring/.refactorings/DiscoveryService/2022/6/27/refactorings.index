@@ -1,0 +1,12 @@
+1656319606088	Copy package
+1656319613017	Delete element
+1656320611143	Move compilation unit
+1656320617820	Delete elements
+1656320673963	Rename package 'api'
+1656320682235	Rename package 'dto'
+1656320688362	Rename package 'entity'
+1656320704315	Rename package 'exception'
+1656320710795	Rename package 'repo'
+1656320717722	Rename package 'service'
+1656320725373	Rename package 'utility'
+1656320732417	Rename package 'validator'
