@@ -19,4 +19,7 @@
 
 
 ## Microservices Diagram
-![MS Diagram](https://github.com/YortA/Free-On-Steam/blob/main/FoS%20MS%20Design.png)
+![MS Diagram](https://github.com/YortA/Free-On-Steam/blob/main/imgs/FoS%20MS%20Design.png)
+
+## External Fetch
+![External Diagram](https://github.com/YortA/Free-On-Steam/blob/main/imgs/FoS%20External%20Fetch%20Design.png)
