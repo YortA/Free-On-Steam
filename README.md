@@ -17,7 +17,7 @@
 ## Database
 #### Current database implementation supports MySQL (or any SQL-type) database and tables. NoSQL databases such as MongoDB will be supported at a later time.
 
-## ![FIGMA Design](https://www.figma.com/proto/r2J3H89cXThnG8UI9nOgV9/FreeOnSteam?node-id=2%3A2&starting-point-node-id=2%3A2)
+## [FIGMA Design](https://www.figma.com/proto/r2J3H89cXThnG8UI9nOgV9/FreeOnSteam?node-id=2%3A2&starting-point-node-id=2%3A2)
 
 ## Microservices Diagram
 ![MS Diagram](https://github.com/YortA/Free-On-Steam/blob/main/imgs/FoS%20MS%20Design.png)
